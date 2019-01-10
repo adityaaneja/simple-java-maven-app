@@ -1,10 +1,5 @@
 pipeline {
-    agent { 
-        label 'maven-test'
-        docker {
-            image 'bibinwilson/jenkins-slave'
-        }
-    }
+    agent {label 'maven-test'}
     
     
     stages {
