@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'maven-test'}
+    agent {label 'maven-agent'}
     
     
     stages {
