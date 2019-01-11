@@ -1,7 +1,6 @@
 pipeline {
-    agent any
-    
-    
+    agent { label 'maven-agent' }
+        
     stages {
         stage('Build') { 
             steps {
